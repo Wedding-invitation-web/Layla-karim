@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#2C2620" />
+  <meta name="description" content="Wedding Invitation — Layla & Karim · 14 September 2025 · Cairo" />
+  <meta property="og:title" content="Layla & Karim — Wedding Invitation" />
+  <meta property="og:description" content="Join us to celebrate our wedding · 14 September 2025 · Cairo, Egypt" />
+  <title>Layla &amp; Karim — Wedding Invitation</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@200;300;400;500&display=swap"
+    rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ── PRELOADER ── -->
+  <div id="preloader" aria-hidden="true">
+    <p class="preloader-names">Layla &amp; Karim</p>
+    <div class="preloader-bar-wrap">
+      <div class="preloader-bar"></div>
+    </div>
+  </div>
+
+  <!-- ── CUSTOM CURSOR ── -->
+  <div id="cursor" aria-hidden="true"></div>
+  <div id="cursor-ring" aria-hidden="true"></div>
+
+  <!-- ── SCROLL PROGRESS ── -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ── PAGE BORDER ── -->
+  <div id="page-border" aria-hidden="true"></div>
+
+  <!-- ── TOAST ── -->
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <!-- ════════════════════════════════
+     NAVIGATION
+════════════════════════════════ -->
+  <nav id="nav" role="navigation" aria-label="Main navigation">
+    <a href="#home" class="nav-brand" aria-label="Back to top">L &amp; K</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#details">Details</a></li>
+      <li><a href="#venue">Venue</a></li>
+      <li><a href="#rsvp">RSVP</a></li>
+    </ul>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile full-screen menu -->
+  <div class="nav-mobile" id="nav-mobile" role="dialog" aria-label="Navigation menu">
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#details">Details</a>
+    <a href="#venue">Venue</a>
+    <a href="#rsvp">RSVP</a>
+  </div>
+
+  <!-- ════════════════════════════════
+     HERO
+════════════════════════════════ -->
+  <section id="home" aria-label="Welcome">
+
+    <!-- Floral ornament SVG -->
+    <svg class="hero-ornament" viewBox="0 0 280 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M10 40 Q70 10 140 40 Q210 70 270 40" stroke="#C9A96E" stroke-width=".8" fill="none" />
+      <path d="M95 33 Q108 14 120 10 Q132 14 145 33" stroke="#C9A96E" stroke-width=".6" fill="none" opacity=".5" />
+      <path d="M135 33 Q148 14 160 10 Q172 14 185 33" stroke="#C9A96E" stroke-width=".6" fill="none" opacity=".5" />
+      <path d="M55 37 Q61 24 65 22" stroke="#C9A96E" stroke-width=".5" fill="rgba(201,169,110,.12)" />
+      <path d="M64 34 Q58 23 62 20 Q68 26 67 34" stroke="#C9A96E" stroke-width=".5" fill="rgba(201,169,110,.12)" />
+      <path d="M210 37 Q216 24 220 22" stroke="#C9A96E" stroke-width=".5" fill="rgba(201,169,110,.12)" />
+      <path d="M219 34 Q213 23 217 20 Q223 26 222 34" stroke="#C9A96E" stroke-width=".5" fill="rgba(201,169,110,.12)" />
+      <circle cx="120" cy="10" r="2.5" fill="#C9A96E" opacity=".7" />
+      <circle cx="140" cy="40" r="3.2" fill="#C9A96E" />
+      <circle cx="160" cy="10" r="2.5" fill="#C9A96E" opacity=".7" />
+      <circle cx="95" cy="34" r="1.5" fill="#C9A96E" opacity=".4" />
+      <circle cx="185" cy="34" r="1.5" fill="#C9A96E" opacity=".4" />
+      <circle cx="40" cy="42" r="1.5" fill="#C9A96E" opacity=".3" />
+      <circle cx="240" cy="42" r="1.5" fill="#C9A96E" opacity=".3" />
+    </svg>
+
+    <p class="hero-pre">Together with their families</p>
+
+    <h1 class="hero-names" aria-label="Layla and Karim">
+      <span class="bride">Layla</span>
+      <span class="hero-amp">&amp;</span>
+      <span class="groom">Karim</span>
+    </h1>
+
+    <div class="hero-divider" aria-hidden="true">
+      <div class="hero-divider-line"></div>
+      <div class="hero-divider-gem"></div>
+      <div class="hero-divider-line"></div>
+    </div>
+
+    <p class="hero-date wedding-date-text">Saturday · 14 September 2025</p>
+    <p class="hero-time">at six o'clock in the evening</p>
+
+    <div class="hero-scroll-indicator" aria-hidden="true">
+      <span>Scroll</span>
+      <svg width="16" height="22" viewBox="0 0 16 22" fill="none">
+        <rect x="1" y="1" width="14" height="20" rx="7" stroke="#C9A96E" stroke-width="1" />
+        <circle cx="8" cy="7" r="2" fill="#C9A96E" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+     COUNTDOWN
+════════════════════════════════ -->
+  <section id="countdown" aria-label="Countdown to wedding day">
+    <div class="section-header reveal">
+      <h2>Counting Down to Forever</h2>
+      <span class="sub">14 · 09 · 2025</span>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="countdown-grid reveal-group" role="timer" aria-live="off">
+      <div class="cd-unit">
+        <span class="cd-num" id="cd-d" aria-label="Days">--</span>
+        <span class="cd-label">Days</span>
+      </div>
+      <span class="cd-sep" aria-hidden="true">:</span>
+      <div class="cd-unit">
+        <span class="cd-num" id="cd-h" aria-label="Hours">--</span>
+        <span class="cd-label">Hours</span>
+      </div>
+      <span class="cd-sep" aria-hidden="true">:</span>
+      <div class="cd-unit">
+        <span class="cd-num" id="cd-m" aria-label="Minutes">--</span>
+        <span class="cd-label">Minutes</span>
+      </div>
+      <span class="cd-sep" aria-hidden="true">:</span>
+      <div class="cd-unit">
+        <span class="cd-num" id="cd-s" aria-label="Seconds">--</span>
+        <span class="cd-label">Seconds</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+     GALLERY
+════════════════════════════════ -->
+  <section id="gallery" class="section-pad" aria-label="Photo gallery">
+    <div class="section-header reveal">
+      <h2>Our Story</h2>
+      <span class="sub">Moments we treasure</span>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="gallery-grid reveal" id="gallery-grid">
+      <!-- Item 1 — tall left -->
+      <div class="gallery-item" tabindex="0" role="button" aria-label="Open photo 1">
+        <div class="gallery-placeholder">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <rect x="4" y="8" width="40" height="32" rx="3" stroke="#C9A96E" stroke-width="1.2" />
+            <circle cx="24" cy="24" r="7" stroke="#C9A96E" stroke-width="1.2" />
+            <circle cx="36" cy="14" r="2.5" fill="#C9A96E" />
+          </svg>
+          <span>Add your photo</span>
+        </div>
+      </div>
+      <!-- Item 2 -->
+      <div class="gallery-item" tabindex="0" role="button" aria-label="Open photo 2">
+        <div class="gallery-placeholder">
+          <svg width="40" height="40" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <rect x="4" y="8" width="40" height="32" rx="3" stroke="#C9A96E" stroke-width="1.2" />
+            <circle cx="24" cy="24" r="7" stroke="#C9A96E" stroke-width="1.2" />
+          </svg>
+          <span>Add your photo</span>
+        </div>
+      </div>
+      <!-- Item 3 -->
+      <div class="gallery-item" tabindex="0" role="button" aria-label="Open photo 3">
+        <div class="gallery-placeholder">
+          <svg width="40" height="40" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <rect x="4" y="8" width="40" height="32" rx="3" stroke="#C9A96E" stroke-width="1.2" />
+            <circle cx="24" cy="24" r="7" stroke="#C9A96E" stroke-width="1.2" />
+          </svg>
+          <span>Add your photo</span>
+        </div>
+      </div>
+      <!-- Item 4 -->
+      <div class="gallery-item" tabindex="0" role="button" aria-label="Open photo 4">
+        <div class="gallery-placeholder">
+          <svg width="40" height="40" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <rect x="4" y="8" width="40" height="32" rx="3" stroke="#C9A96E" stroke-width="1.2" />
+            <circle cx="24" cy="24" r="7" stroke="#C9A96E" stroke-width="1.2" />
+          </svg>
+          <span>Add your photo</span>
+        </div>
+      </div>
+      <!-- Item 5 -->
+      <div class="gallery-item" tabindex="0" role="button" aria-label="Open photo 5">
+        <div class="gallery-placeholder">
+          <svg width="40" height="40" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <rect x="4" y="8" width="40" height="32" rx="3" stroke="#C9A96E" stroke-width="1.2" />
+            <circle cx="24" cy="24" r="7" stroke="#C9A96E" stroke-width="1.2" />
+          </svg>
+          <span>Add your photo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Lightbox ── -->
+  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Photo lightbox">
+    <button id="lightbox-close" aria-label="Close photo">✕</button>
+    <button id="lightbox-prev" aria-label="Previous photo">&#8592;</button>
+    <img id="lightbox-img" src="" alt="Wedding photo" />
+    <button id="lightbox-next" aria-label="Next photo">&#8594;</button>
+  </div>
+
+  <!-- ════════════════════════════════
+     DETAILS
+════════════════════════════════ -->
+  <section id="details" class="section-pad" aria-label="Wedding details">
+    <div class="section-header reveal">
+      <h2>The Day</h2>
+      <span class="sub">Everything you need to know</span>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="details-grid reveal-group">
+      <!-- Date -->
+      <div class="detail-card">
+        <div class="detail-icon" aria-hidden="true">
+          <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+            <rect x="3" y="5" width="24" height="22" rx="2" stroke="#C9A96E" stroke-width="1" />
+            <path d="M3 12h24" stroke="#C9A96E" stroke-width="1" />
+            <path d="M10 3v4M20 3v4" stroke="#C9A96E" stroke-width="1" stroke-linecap="round" />
+            <rect x="9" y="16" width="3" height="3" rx=".5" fill="#C9A96E" opacity=".5" />
+            <rect x="14" y="16" width="3" height="3" rx=".5" fill="#C9A96E" opacity=".5" />
+            <rect x="9" y="21" width="3" height="3" rx=".5" fill="#C9A96E" opacity=".5" />
+            <rect x="14" y="21" width="3" height="3" rx=".5" fill="#C9A96E" />
+          </svg>
+        </div>
+        <span class="detail-label">Date</span>
+        <p class="detail-main">Saturday<br />14 September 2025</p>
+      </div>
+      <!-- Time -->
+      <div class="detail-card">
+        <div class="detail-icon" aria-hidden="true">
+          <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+            <circle cx="15" cy="15" r="11" stroke="#C9A96E" stroke-width="1" />
+            <path d="M15 8v7l5 3" stroke="#C9A96E" stroke-width="1" stroke-linecap="round" />
+            <circle cx="15" cy="4" r="1" fill="#C9A96E" opacity=".3" />
+            <circle cx="15" cy="26" r="1" fill="#C9A96E" opacity=".3" />
+            <circle cx="4" cy="15" r="1" fill="#C9A96E" opacity=".3" />
+            <circle cx="26" cy="15" r="1" fill="#C9A96E" opacity=".3" />
+          </svg>
+        </div>
+        <span class="detail-label">Time</span>
+        <p class="detail-main">6:00 PM</p>
+        <p class="detail-sub">Ceremony at 6:00 PM<br />Reception to follow</p>
+      </div>
+      <!-- Venue -->
+      <div class="detail-card">
+        <div class="detail-icon" aria-hidden="true">
+          <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+            <path d="M15 3C10.58 3 7 6.58 7 11c0 6.08 8 16 8 16s8-9.92 8-16c0-4.42-3.58-8-8-8z" stroke="#C9A96E"
+              stroke-width="1" />
+            <circle cx="15" cy="11" r="3" stroke="#C9A96E" stroke-width="1" />
+          </svg>
+        </div>
+        <span class="detail-label">Venue</span>
+        <p class="detail-main venue-name-text">The Grand Rose Palace</p>
+        <p class="detail-sub venue-address-text">12 Al-Ahram Blvd<br />Cairo, Egypt</p>
+      </div>
+      <!-- Dress Code -->
+      <div class="detail-card">
+        <div class="detail-icon" aria-hidden="true">
+          <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+            <path d="M10 4l-4 6h4v16h10V10h4l-4-6c-1 2-3 3-5 3s-4-1-5-3z" stroke="#C9A96E" stroke-width="1"
+              stroke-linejoin="round" />
+            <path d="M15 7v3" stroke="#C9A96E" stroke-width="1" stroke-linecap="round" />
+          </svg>
+        </div>
+        <span class="detail-label">Dress Code</span>
+        <p class="detail-main">Black Tie<br />Preferred</p>
+        <p class="detail-sub">Formal attire<br />encouraged</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+     VENUE / MAP
+════════════════════════════════ -->
+  <section id="venue" class="section-pad" aria-label="Venue location">
+    <div class="section-header reveal">
+      <h2>Find Us</h2>
+      <span class="sub">We look forward to welcoming you</span>
+      <div class="section-line"></div>
+    </div>
+
+    <p class="venue-name reveal venue-name-text">The Grand Rose Palace</p>
+    <p class="venue-address reveal venue-address-text">12 Al-Ahram Boulevard · Cairo, Egypt</p>
+
+    <a class="map-btn reveal" id="map-btn" href="#" target="_blank" rel="noopener"
+      aria-label="Open venue in Google Maps">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+        stroke-linecap="round" aria-hidden="true">
+        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
+        <circle cx="12" cy="9" r="2.5" />
+      </svg>
+      Open in Google Maps
+    </a>
+
+    <div class="map-frame reveal">
+      <iframe id="map-iframe"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27604.65!2d31.22!3d30.04!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo!5e0!3m2!1sen!2seg!4v1680000000000"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        title="Wedding venue on Google Maps">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+     RSVP
+════════════════════════════════ -->
+  <section id="rsvp" class="section-pad" aria-label="RSVP">
+    <div class="section-header reveal">
+      <h2>Kindly Reply</h2>
+      <span class="sub">Please respond by <span class="rsvp-deadline">August 1, 2025</span></span>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="rsvp-wrapper reveal">
+
+      <!-- Form -->
+      <div id="rsvp-form-wrap">
+        <form id="rsvp-form" novalidate aria-label="RSVP form">
+
+          <div class="rsvp-form">
+            <div class="field-row">
+              <div class="field">
+                <label for="first-name">First Name</label>
+                <input id="first-name" type="text" placeholder="Sarah" required autocomplete="given-name" />
+              </div>
+              <div class="field">
+                <label for="last-name">Last Name</label>
+                <input id="last-name" type="text" placeholder="Hassan" required autocomplete="family-name" />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="phone">Phone Number</label>
+              <input id="phone" type="tel" placeholder="01234567890" required autocomplete="tel" />
+            </div>
+
+            <div class="field">
+              <label>Attendance</label>
+              <div class="attend-group" id="attend-group" role="group" aria-label="Will you attend?">
+                <button type="button" class="attend-opt active" data-val="accepts" aria-checked="true">Joyfully
+                  Accepts</button>
+                <button type="button" class="attend-opt" data-val="declines" aria-checked="false">Regretfully
+                  Declines</button>
+              </div>
+              <input type="hidden" id="attend-val" value="accepts" />
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="guests">Number of Guests</label>
+                <select id="guests" aria-label="Number of guests">
+                  <option value="1">1 Guest</option>
+                  <option value="2">2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="note">A Note for the Couple (optional)</label>
+              <textarea id="note" placeholder="Share your wishes or a personal message…"></textarea>
+            </div>
+
+            <button class="rsvp-submit" type="submit">
+              Send My Reply
+              <span class="btn-progress"></span>
+            </button>
+          </div>
+
+        </form>
+      </div>
+
+      <!-- Thank you state (hidden initially) -->
+      <div id="rsvp-thanks" class="rsvp-thanks" role="alert">
+        <div class="check-icon" aria-hidden="true">✦</div>
+        <h3>Thank you for your reply!</h3>
+        <p class="rsvp-thanks-msg">We can't wait to celebrate with you!</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+     FOOTER
+════════════════════════════════ -->
+  <footer role="contentinfo">
+    <svg class="footer-ornament" width="120" height="28" viewBox="0 0 120 28" fill="none" aria-hidden="true">
+      <path d="M5 14 Q30 4 60 14 Q90 24 115 14" stroke="#C9A96E" stroke-width=".7" fill="none" />
+      <circle cx="60" cy="14" r="2.5" fill="#C9A96E" />
+      <circle cx="30" cy="14" r="1.5" fill="#C9A96E" opacity=".5" />
+      <circle cx="90" cy="14" r="1.5" fill="#C9A96E" opacity=".5" />
+    </svg>
+    <p class="footer-names couple-names">Layla &amp; Karim</p>
+    <p class="footer-date">14 · 09 · 2025 &nbsp;·&nbsp; Cairo, Egypt</p>
+    <p class="footer-credit">Crafted with love ♥</p>
+  </footer>
+
+  <!-- ════════════════════════════════
+     OPTIONAL MUSIC PLAYER
+════════════════════════════════ -->
+  <!-- <audio id="bg-music" loop preload="none"></audio>
+  <div id="music-player" aria-label="Background music player">
+    <span class="music-label">Background Music</span>
+    <button class="music-btn" id="music-btn" aria-label="Play background music"> -->
+  <!-- Play icon -->
+  <!-- <svg class="icon-play" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+        <polygon points="6,4 20,12 6,20" />
+      </svg> -->
+  <!-- Pause icon -->
+  <!-- <svg class="icon-pause" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+        <rect x="5" y="4" width="4" height="16" />
+        <rect x="15" y="4" width="4" height="16" />
+      </svg>
+    </button>
+  </div> -->
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
